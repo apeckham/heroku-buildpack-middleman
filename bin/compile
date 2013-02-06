@@ -1,8 +1,8 @@
-#!/usr/bin/env bash -ex
+#!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
 # Work in the build directory
-cd $1
+cd $1/mm
 
 # Fix some paths for bundler
 export GEM_PATH="./vendor/bundle/ruby/1.9.1"

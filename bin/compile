@@ -2,7 +2,7 @@
 # bin/compile <build-dir> <cache-dir>
 
 # Work in the build directory
-cd $1/mm
+cd $1
 
 # Fix some paths for bundler
 export GEM_PATH="./vendor/bundle/ruby/1.9.1"
